@@ -11,6 +11,7 @@ Patch0:		rabl_server-1.0.0-mdv_conf.diff
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
 Requires:	bind
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The RABL (pronounced "rabble") server is a statistical, machine-automated
