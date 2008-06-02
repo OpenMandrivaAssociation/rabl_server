@@ -62,7 +62,7 @@ install -m0755 rabl_server.init %{buildroot}%{_initrddir}/rabl_server
 install -m0644 rabl_server.conf %{buildroot}%{_sysconfdir}/
 
 #%pre
-#%_pre_useradd rabl_server %{_localstatedir}/rabl_server /bin/sh
+#%_pre_useradd rabl_server %{_localstatedir}/lib/rabl_server /bin/sh
 
 %post
 %_post_service rabl_server
