@@ -1,7 +1,7 @@
 Summary:	Reactive Autonomous Blackhole List (RABL) Project server
 Name:		rabl_server
 Version:	1.0.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		System/Servers
 URL:		http://www.nuclearelephant.com/projects/rabl/
