@@ -1,0 +1,22 @@
+--- rabl_server.conf	2005-07-23 05:04:22.000000000 +0200
++++ rabl_server.conf.oden	2006-04-28 16:35:35.000000000 +0200
+@@ -3,7 +3,7 @@
+ ##
+ 
+ # Logfile
+-Logfile rabl.log
++Logfile /var/log/rabl_server/rabl_server.log
+ 
+ # Connection Queue Size
+ Queue 32
+@@ -24,8 +24,8 @@
+ DoSCMD	"echo 'block in quick from %s/32 to any' | ipf -f -"
+ 
+ # Zone file writing
+-ZoneTemplate	/var/named/rabl.mydomain.com.template
+-ZoneOutput	/var/named/rabl.mydomain.com
++ZoneTemplate /var/lib/named-chroot/var/named/master/rabl.mydomain.com.template
++ZoneOutput /var/lib/named-chroot/var/named/master/rabl.mydomain.com
+ 
+ # Users (Clients with the ability to report a spamming host)
+ # USER <uid> <secret> <acl> <permissions>
