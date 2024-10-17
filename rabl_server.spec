@@ -4,7 +4,7 @@ Version:	1.0.0
 Release:	%mkrel 5
 License:	GPL
 Group:		System/Servers
-URL:		http://www.nuclearelephant.com/projects/rabl/
+URL:		https://www.nuclearelephant.com/projects/rabl/
 Source0:	http://www.nuclearelephant.com/projects/rabl/sources/%{name}-%{version}.tar.bz2
 Source1:	rabl_server.init.bz2
 Patch0:		rabl_server-1.0.0-mdv_conf.diff
